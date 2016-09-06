@@ -1,0 +1,307 @@
+body {
+	background-image: url("../img/Backgrounds/swing-blue-night.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 99.9%;
+	background-attachment: fixed;
+	font-family: "Helvetica LT Std Light";
+	letter-spacing: 0.1em;
+}
+
+div#vacio {
+	width: 100%;
+	height: auto;
+}
+
+div#contenedor {
+	width: 100%;
+	height: auto;
+	background-color: #F0F0F0;
+}
+
+div#body {
+	margin:auto;
+	width: 100%;
+	height: auto;
+}
+
+div#menu {
+	text-align: center;
+	width: 100%;
+	height: 150px;
+}
+
+.img-logo-normal {
+	padding: 4rem 0rem 2rem;
+	text-align: center;
+}
+
+.title-header {
+	text-align: center;
+	letter-spacing: 0.5em;
+	margin:4% 0% 2%;
+	font-size: 60px;
+	color: white;
+}
+
+.navbar-nav{
+	padding-top: 3.5em;
+	text-align: center;
+	float: none;
+	li {
+     float: none;
+     display: inline-block;
+     @media screen and (max-width: #{$screen-phone}) {
+     	display: block;
+     }
+	}
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  width: 8em;
+  height: 3em;
+  padding: 1rem;
+  color:whitesmoke;
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0 auto;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: rgb(235, 135, 230);
+	background-color: rgba(218, 212, 212, 0.35);
+	transition: all .2s linear;
+	font-weight: 800;
+	background-position: -250px 0;
+ }
+
+.contenedor-habilidades {
+ 	background-image: url(../img/background-section/background-form-gray.png);
+ 	padding-bottom: 3rem;
+ 	height: auto;
+ }
+
+.color-web {
+  color: #F0F0F0;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  padding-bottom: 17%;
+ }
+
+ .button-down {
+ 	background:transparent url(../img/scroll.png) center no-repeat;
+ 	padding: 0px 35px 70px;
+ 	opacity: .3;
+ 	-webkit-transition:all .2s linear;
+ 	-moz-transition:all .2s linear;
+ 	-o-transition: all .2s linear;
+ 	transition:all .2s linear;
+ }
+
+ .button-down:hover {
+ 	opacity: 1;
+ 	-webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+ }
+
+.img-icon-skills {
+	padding: 3rem 5rem;
+	font-size: 40px;
+	color: rgba(156, 155, 160, 0.88);	
+}
+
+.img-icon-skills i:hover {
+	transition: .50s ease-in-out;
+	color: black;
+}
+
+.title-habilidades,
+.title-portafolio {
+	padding: 3rem 0rem;
+}
+
+.contenedor-portafolio {
+	height: auto;
+	background-color:white;
+}
+
+.contenedor-img-portafolio {
+	position: relative;
+}
+
+.contenedor-img-portafolio h3 {
+	text-transform: uppercase;
+	color: black;
+	font-weight: 800;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	opacity: 0;
+	width: 80%;
+	margin:0 10%;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.contenedor-img-portafolio a {
+	width: 100%;
+	float: left;
+}
+
+.contenedor-img-portafolio{
+	img {
+		transition: .35s ease-in-out;
+		width: 100%;
+	}
+	h3 {
+		transition: .35s ease-in-out;
+	}
+}
+
+.contenedor-img-portafolio a:hover > img {
+  opacity: .3;
+}
+
+.contenedor-img-portafolio a:hover > h3 {
+  opacity: 1;
+  top: 43%;
+}
+
+.fondo-cta {
+	margin-top:3%;
+	color: whitesmoke;
+	font-weight: 700;
+	width: 100%;
+	height: auto;
+	background-image: url(../img/Backgrounds/fondo-desenfocado-luces-blancas.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 8rem 0rem;
+}
+
+.btn-primary:hover {
+  border-color:  rgba(143, 141, 141, 0.52);
+  letter-spacing: 2px;
+  background-color:  #F0F0F0;
+  color: black;
+}
+
+.btn-style {
+  border-color: black;
+  letter-spacing: 2px;
+  background-color: black;
+}
+
+.contenedor-yo {
+	background-color: #F0F0F0;
+}
+
+.contenedor-img-perfil {
+	margin: 0 auto;
+ 	width: 30em;
+ 	img {
+ 		width: 100%;
+ 	}
+ }
+
+footer {
+	color: whitesmoke;
+	width: 100%;
+	height: auto;
+	padding: 4rem;
+}
+
+.icons-footer i {
+	font-size: 20px;
+	padding: 1rem;
+	color: #B1B1B1;
+  transition: .35s ease-in-out;
+}
+
+.fondo-footer {
+	margin: 6rem 0rem 0rem;
+	background-image: url(../img/Backgrounds/fondo-gris-silla.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.parrafo-perfil {
+	padding: 5rem 0rem;
+	letter-spacing: 1px;
+	line-height: 30px;
+	font-style: normal;
+}
+
+.clearfix:before, .clearfix:after{
+		content: " ";
+		display: table;
+}
+.clearfix:after {
+		clear: both;
+}
+ @font-face {
+	font-family: "Helvetica LT Std Light";
+	src: url(../font/HelveticaLTStd-Light.otf);
+}
+ @font-face {
+	font-family: "SourceSansPro-Black.otf";
+	src: url(../font/SourceSansPro-Black.otf);
+}
+
+a:hover .fa-twitter {
+  color: #55ACEE;
+}
+a:hover .fa-github {
+  color: #48779C; 
+}
+a:hover .fa-google {
+  color: #EC4989;
+}
+
+/* Estrellas de valoración
+----------------------------------------------- */
+.val-fieldset {
+	margin:0 auto;
+	width:100px;
+	border:none;
+	font-weight:bold;
+	font-size:12px;
+}
+.valoracion {
+	width: 100px;
+	height: 21px;
+	display: block;
+	background:url(http://lh5.googleusercontent.com/-Sp-iHFztZdc/UVD89O9oM1I/AAAAAAAAEU0/Xh-FBDaWyJY/s000/estrellas.png) 0 0 no-repeat;
+}
+.val-10 {background-position: -81px 0;}
+.val-20 {background-position: -60px 0;}
+.val-30 {background-position: -40px 0;}
+.val-40 {background-position: -21px 0;} 
+.val-50 {background-position: 0 0;}
+
+/*Smartphone*/
+
+@media screen and (max-width:$screen-phone) {
+
+header {
+  margin: 20px;
+  text-align: center;
+  background: url("../img/Backgrounds/swing-blue-night.jpg") no-repeat fixed;
+}
+
+.contenedor-img-perfil {
+	width: auto;
+	}
+
+.color-web {
+	padding-bottom: 0%;
+}
+
+}

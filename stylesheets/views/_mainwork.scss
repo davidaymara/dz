@@ -1,0 +1,126 @@
+body {
+	font-family: "Helvetica LT Std Light";
+}
+
+.padding-img-portfolio {
+	padding: 3rem 0rem;
+}
+
+.fondo {
+	background-image: url(../Img/fondo-desenfocado-luces-blancas.jpg);
+
+}
+
+div#menu {
+
+	text-align: center;
+	width: 100%;
+	height: 150px;
+}
+
+.img-logo-normal {
+	padding: 4rem 0rem 2rem;
+	text-align: center;
+}
+
+.title-header {
+	padding: 2rem 0rem;
+	text-align: center;
+	color: black;
+}
+
+.parrafo-content p {
+  padding: 0rem 20rem;
+  text-align: center;
+  font-size: 18px;
+}
+
+.navbar-nav{
+	padding-top: 3.5em;
+	text-align: center;
+	float: none;
+	li {
+     float: none;
+     display: inline-block;
+     @media screen and (max-width: #{$screen-phone}) {
+     	display: block;
+     }
+	}
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  width: 8em;
+  height: 3em;
+  padding: 1rem;
+  color:whitesmoke;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Helvetica LT Std Light";
+  letter-spacing: 0.1em;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: rgb(235, 135, 230);
+	background-color: rgba(218, 212, 212, 0.35);
+	transition: all .2s linear;
+	font-weight: 800;
+	background-position: -250px 0;
+ }
+
+.btn-primary:hover {
+  border-color:  rgba(143, 141, 141, 0.52);
+  letter-spacing: 2px;
+  background-color:  #F0F0F0;
+  color: black;
+}
+
+.btn-style {
+  border-color: black;
+  letter-spacing: 2px;
+  background-color: black;
+}
+
+footer {
+	margin: 4% 0% 0%;
+	color: whitesmoke;
+	width: 100%;
+	height: auto;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	padding: 4rem;
+}
+
+.fondo-footer {
+	margin: 6rem 0rem 0rem;
+	background-image: url(../img/Backgrounds/fondo-gris-silla.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+
+.icons-footer i {
+		font-size: 20px;
+		padding: 1rem;
+		 color: #B1B1B1;
+  	transition: .35s ease-in-out;
+	}
+
+a:hover .fa-twitter {
+  color: #55ACEE;
+}
+a:hover .fa-facebook {
+  color: #48779C; 
+}
+a:hover .fa-google {
+  color: #EC4989;
+}
+
+@font-face {
+	font-family: "Helvetica LT Std Light";
+	src: url(../font/HelveticaLTStd-Light.otf);
+}
