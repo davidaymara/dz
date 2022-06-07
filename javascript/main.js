@@ -14,3 +14,13 @@ $('.slider-nav').slick({
   focusOnSelect: true
 });
 		
+
+$('.one-time').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true,
+  prevArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-arrow-left"></i></button>',
+  nextArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-arrow-right"></i></button>'
+});
