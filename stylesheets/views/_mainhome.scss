@@ -99,12 +99,8 @@ div#menu {
  	height: auto;
  }
 
-.color-web {
-  color: #F0F0F0;
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 0.5em;
-  padding-bottom: 17%;
+ .description {
+	 color: #fff;
  }
 
  .button-down {
@@ -261,7 +257,18 @@ a:hover .fa-google {
 
 /*Smartphone*/
 
-@media screen and (max-width:$screen-phone) {
+@media screen and (max-width:768px) {
+
+	.description {
+		border-radius: 19px;
+    color: black;
+    font-size: 30px;
+    letter-spacing: normal;
+    font-weight: 600;
+    margin-top: 60px;
+    background-color: #ffffff33;
+    line-height: 35px;
+	}
 
 	header {
 		margin: 20px;
@@ -272,10 +279,6 @@ a:hover .fa-google {
 	.contenedor-img-perfil {
 		width: auto;
 		}
-
-	.color-web {
-		padding-bottom: 0%;
-	}
 
 }
 
