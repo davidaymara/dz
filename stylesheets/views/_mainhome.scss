@@ -1,10 +1,14 @@
 body {
-	background-image: url("../img/Backgrounds/swing-blue-night.jpg");
+	background-image: url("../img/Backgrounds/bg.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 99.9%;
 	background-attachment: fixed;
 	font-family: "Helvetica LT Std Light";
 	letter-spacing: 0.1em;
+}
+
+header {
+	height: 100vh;
 }
 
 div#vacio {
@@ -33,6 +37,12 @@ div#menu {
 .img-logo-normal {
 	padding: 4rem 0rem 2rem;
 	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+
+	img {
+		width: 100%;
+	}
 }
 
 .title-header {
@@ -40,13 +50,14 @@ div#menu {
 	letter-spacing: 0.5em;
 	margin:4% 0% 2%;
 	font-size: 60px;
-	color: white;
+	color: #000;
 }
 
 .navbar-nav{
 	padding-top: 3.5em;
 	text-align: center;
 	float: none;
+	color: #000;
 	li {
      float: none;
      display: inline-block;
@@ -62,24 +73,27 @@ div#menu {
 }
 
 .navbar-default .navbar-nav > li > a {
-  width: 8em;
   height: 3em;
   padding: 1rem;
-  color:whitesmoke;
+  color:#000;
   font-size: 14px;
   font-weight: 800;
   margin: 0 auto;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: rgb(235, 135, 230);
+	color: rgb(135 137 235);
 	background-color: rgba(218, 212, 212, 0.35);
 	transition: all .2s linear;
 	font-weight: 800;
 	background-position: -250px 0;
  }
 
-.contenedor-habilidades {
+ .content > div {
+	 width: 100%;
+ }
+
+.content-skill {
  	background-image: url(../img/background-section/background-form-gray.png);
  	padding-bottom: 3rem;
  	height: auto;
@@ -127,52 +141,11 @@ div#menu {
 	padding: 3rem 0rem;
 }
 
-.contenedor-portafolio {
+.content-portfolio {
 	height: auto;
 	background-color:white;
 }
 
-.contenedor-img-portafolio {
-	position: relative;
-}
-
-.contenedor-img-portafolio h3 {
-	text-transform: uppercase;
-	color: black;
-	font-weight: 800;
-	position: absolute;
-	top: 50%;
-	left: 0;
-	opacity: 0;
-	width: 80%;
-	margin:0 10%;
-	text-align: center;
-	font-size: 1.8em;
-}
-
-.contenedor-img-portafolio a {
-	width: 100%;
-	float: left;
-}
-
-.contenedor-img-portafolio{
-	img {
-		transition: .35s ease-in-out;
-		width: 100%;
-	}
-	h3 {
-		transition: .35s ease-in-out;
-	}
-}
-
-.contenedor-img-portafolio a:hover > img {
-  opacity: .3;
-}
-
-.contenedor-img-portafolio a:hover > h3 {
-  opacity: 1;
-  top: 43%;
-}
 
 .fondo-cta {
 	margin-top:3%;
@@ -199,7 +172,7 @@ div#menu {
   background-color: black;
 }
 
-.contenedor-yo {
+.content-profile {
 	background-color: #F0F0F0;
 }
 
@@ -290,18 +263,23 @@ a:hover .fa-google {
 
 @media screen and (max-width:$screen-phone) {
 
-header {
-  margin: 20px;
-  text-align: center;
-  background: url("../img/Backgrounds/swing-blue-night.jpg") no-repeat fixed;
-}
-
-.contenedor-img-perfil {
-	width: auto;
+	header {
+		margin: 20px;
+		text-align: center;
+		background: url("../img/Backgrounds/swing-blue-night.jpg") no-repeat fixed;
 	}
 
-.color-web {
-	padding-bottom: 0%;
+	.contenedor-img-perfil {
+		width: auto;
+		}
+
+	.color-web {
+		padding-bottom: 0%;
+	}
+
 }
 
+/*slick*/
+.slick-slide img {
+	width: 100%;
 }
